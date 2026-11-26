@@ -2,7 +2,7 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[User guide](https://inematds.github.io/jarvismodelo/guia/en/) · [Jarvis v7 with interface](https://inematds.github.io/jarvisv7/guia/)
+[User guide](https://linnoff88-dev.github.io/arckhe-/guia/en/) · [Jarvis v7 with interface](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 Reusable foundation for building personal, work, study, or customer service assistants.
 The highlight is **real JEV Reflex via OpenRouter**: five structured decisions before
@@ -12,7 +12,7 @@ Version **0.1.0**, Node **24**, no external runtime dependencies. MIT-licensed c
 ## Run
 
 ```bash
-git clone https://github.com/inematds/jarvismodelo.git
+git clone https://github.com/linnoff88-dev/jarvismodelo.git
 cd jarvismodelo
 npm test
 npm run demo
@@ -23,7 +23,7 @@ proposal. It does not send email, connect to Gmail, or call an LLM.
 
 ## Consult the real JEV
 
-Configure `OPENROUTER_API_KEY` in the environment (do not save it in code). In the INEMA
+Configure `OPENROUTER_API_KEY` in the environment (do not save it in code). In the ARCKHÉ
 installation, the example also reads the key at runtime from `~/projetos/openpcbotv2/.env` or
 `~/projetos/wifi/.env`; it does not copy or print the credential.
 

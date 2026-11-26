@@ -65,6 +65,6 @@ nêo grava nem imprime a credencial. Exige `source: jev` e turno concluído para
 
 ## Base para outros assistentes
 
-[Jarvis Modelo](https://github.com/inematds/jarvismodelo) extrai o núcleo Reflex e adiciona
+[Jarvis Modelo](https://github.com/linnoff88-dev/jarvismodelo) extrai o núcleo Reflex e adiciona
 portas de recuperaçêo/planejamento/ferramentas, aprovaçêo e ledger persistente. É uma
 base executável; conectar canais, modelos e ferramentas reais é trabalho de adaptaçêo.
