@@ -6,7 +6,7 @@ const assistant = new Assistant({
     validate: args => { if (!args || typeof (args as any).body !== 'string') throw new Error('body required'); return args; },
     execute: async args => ({ draft: args, simulated: true }) }],
   plan: async (input, _decision, tools) => tools.some(t => t.name === 'draft')
-    ? { tool: 'draft', args: { body: 'Não poderei comparecer amanhã.' } }
+    ? { tool: 'draft', args: { body: 'Nêo poderei comparecer amanhê.' } }
     : { answer: input.candidates?.[0]?.content ?? 'Nenhuma nota.' },
 });
 try {
